@@ -1,6 +1,6 @@
 * {
     margin: 0px;
-    padding: 0px;
+    /* padding: 0px; */
 }
 
 .work-sans-normal {
@@ -38,12 +38,18 @@
     cursor: pointer;
 }
 
+.primary-bg {
+    background-color: #FFF8F3;
+}
+
+
 /* header style */
 .header {
     background-image: url("/images/developer.png"), url("/images/header_bg.png");
     background-repeat: no-repeat;
     background-position: top left, bottom right;
     margin-left: 25px;
+    margin-top: 50px;
 }
 
 /* nav style */
@@ -52,7 +58,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 230px 0px 230px;
+    /* margin: 50px 230px 0px 230px; */
+    margin-left: 230px;
+    margin-right: 230px;
 }
 
 .nav-title {
@@ -117,4 +125,100 @@ nav ul li a {
 
 .banner img {
     max-width: 585px;
+}
+
+/* main styles */
+.about {
+    margin: 130px 230px;
+    /* padding: 10px; */
+    display: flex;
+    border-radius: 10px;
+
+}
+
+.about-details {
+    background-color: white;
+    border: 1px solid black;
+    /* max-width: 1140px;
+    max-height: 550px; */
+    margin: 130px 155px;
+    text-align: center;
+    padding: 10px;
+}
+
+
+.default-title {
+    font-size: 35px;
+}
+
+
+.about-details>p {
+    font-size: 18px;
+    color: #757575;
+    margin-top: 30px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.data-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.data-info {
+    font-size: 20px;
+    color: #474747;
+    font-weight: 700;
+}
+
+/* what i do */
+
+.what-i-do {
+    text-align: center;
+    margin: 0px 230px 130px 230px;
+}
+
+.what-i-do-intro {
+    padding: 0px 100px;
+}
+
+.what-i-do h4 {
+    margin-bottom: 30px;
+}
+
+.what-i-do p {
+    color: #757575;
+    font: 18px;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.skill {
+    max-width: 265px;
+    /* border: 1px solid black; */
+    box-shadow: 10px 10px 10px 10px #f9f9f9;
+    /* box-shadow: #FD6E0A; */
+    padding: 30px;
+    text-align: justify;
+}
+
+.skill img {
+    margin-bottom: 30px;
+}
+
+.skill h5 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.skill p {
+    font-size: 16px;
 }
